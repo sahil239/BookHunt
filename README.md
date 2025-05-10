@@ -43,7 +43,7 @@ Features are structured into self-contained packages following the MVVM/MVI patt
 Clone this repository:
 
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/sahil239/BookHunt
 ```
 
 Open the project in Android Studio, and sync the Gradle project to fetch all dependencies.
