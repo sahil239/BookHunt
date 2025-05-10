@@ -74,6 +74,9 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 This project is licensed under the MIT License.
 
+## 🎬 Course Video
+[By Philipp Lackner][https://www.youtube.com/watch?v=WT9-4DXUqsM&t=40s]
 ---
 
 Enjoy exploring BookHunt and mastering Kotlin Multiplatform! 🚀📖✨
+

@@ -14,7 +14,7 @@ import dev.sahildesai.bookhunt.utils.domain.map
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-class DefaultBookRepository(
+class BookRepository(
     private val remoteBookDataSource: IRemoteBookDataSource,
     private val favoriteBookDao: FavoriteBookDao
 ): IBookRepository {

@@ -2,7 +2,6 @@ package dev.sahildesai.bookhunt.book.data.network
 
 import dev.sahildesai.bookhunt.book.data.dto.BookWorkDto
 import dev.sahildesai.bookhunt.book.data.dto.SearchResponseDto
-import dev.sahildesai.bookhunt.book.domain.Book
 import dev.sahildesai.bookhunt.utils.data.safeCall
 import dev.sahildesai.bookhunt.utils.domain.DataError
 import dev.sahildesai.bookhunt.utils.domain.Result
@@ -12,8 +11,9 @@ import io.ktor.client.request.parameter
 
 private const val BASE_URL = "https://openlibrary.org/"
 private const val SEARCH = "search.json"
+private const val DETAILS = "works.json"
 
-class KtorNetworkDataSource(
+class RemoteBookDataSource(
     private val httpClient: HttpClient
 ): IRemoteBookDataSource {
     override suspend fun searchBooks(
@@ -34,7 +34,7 @@ class KtorNetworkDataSource(
     override suspend fun getBookDetails(bookWorkId: String): Result<BookWorkDto, DataError.Remote> {
         return safeCall<BookWorkDto> {
             httpClient.get(
-                urlString = "$BASE_URL/works/$bookWorkId.json"
+                urlString = "$BASE_URL$DETAILS/$bookWorkId.json"
             )
         }
     }
