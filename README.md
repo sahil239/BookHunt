@@ -56,16 +56,21 @@ Open the project in Android Studio, and sync the Gradle project to fetch all dep
 
 ---
 
-## 📸 Demo
+## 📸 App Previews
 
-Here's a quick preview of BookHunt in action:
-
-![Android Demo](/screenshots/android.gif)
-![iOS Demo](/screenshots/ios.gif)
+<table>
+  <tr>
+    <td>
+      <img src="/screenshots/android.gif" height="300" alt="Android Demo"/>
+    </td>
+    <td>
+      <img src="/screenshots/ios.gif" height="300" alt="iOS Demo"/>
+    </td>
+  </tr>
+</table>
 
 > 💡 All screens are fully responsive and work across **Android**, **iOS**, and **Desktop**.
 ---
-
 ## 📖 API
 
 The application uses the free [Open Library API](https://openlibrary.org/dev/docs/api/books) for book searching and retrieval.
