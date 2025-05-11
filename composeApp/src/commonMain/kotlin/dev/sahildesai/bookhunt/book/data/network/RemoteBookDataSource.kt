@@ -11,7 +11,7 @@ import io.ktor.client.request.parameter
 
 private const val BASE_URL = "https://openlibrary.org/"
 private const val SEARCH = "search.json"
-private const val DETAILS = "works.json"
+private const val DETAILS = "works/"
 
 class RemoteBookDataSource(
     private val httpClient: HttpClient
