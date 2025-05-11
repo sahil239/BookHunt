@@ -60,8 +60,9 @@ Open the project in Android Studio, and sync the Gradle project to fetch all dep
 
 Here's a quick preview of BookHunt in action:
 
-![BookHunt Android Demo](screnshots/android.gif)
-![BookHunt iOS Demo](screnshots/ios.gif)
+[BookHunt Android Demo](/screnshots/android.gif)
+[BookHunt iOS Demo](/screnshots/ios.gif)
+
 
 > 💡 All screens are fully responsive and work across **Android**, **iOS**, and **Desktop**.
 ---
