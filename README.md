@@ -60,8 +60,8 @@ Open the project in Android Studio, and sync the Gradle project to fetch all dep
 
 ### 🟢 Start Screen
 <div align="center">
-  <img src="screenshots/android.webm" width="50%"  alt=""/>
-  <img src="screenshots/ios.mp4" width="50%"  alt=""/>
+  <img src="screenshots/android.gif" width="50%"  alt=""/>
+  <img src="screenshots/ios.gif" width="50%"  alt=""/>
 </div>
 
 > 💡 All screens are fully responsive and work across **Android**, **iOS**, and **Desktop**.
