@@ -54,6 +54,19 @@ Open the project in Android Studio, and sync the Gradle project to fetch all dep
 * **iOS**: Requires macOS with Xcode installed. Open project in Xcode and run the iOS App.
 * **Desktop**: Use the Desktop run configuration directly from Android Studio.
 
+---
+
+## 📸 Screenshots
+
+### 🟢 Start Screen
+<div align="center">
+  <img src="screenshots/android.webm" width="50%"  alt=""/>
+  <img src="screenshots/ios.mp4" width="50%"  alt=""/>
+</div>
+
+> 💡 All screens are fully responsive and work across **Android**, **iOS**, and **Desktop**.
+---
+
 ## 📖 API
 
 The application uses the free [Open Library API](https://openlibrary.org/dev/docs/api/books) for book searching and retrieval.
