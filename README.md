@@ -58,14 +58,6 @@ Open the project in Android Studio, and sync the Gradle project to fetch all dep
 
 The application uses the free [Open Library API](https://openlibrary.org/dev/docs/api/books) for book searching and retrieval.
 
-## ✅ Next Steps
-
-Feel free to extend the app with additional features such as:
-
-* User reviews and ratings.
-* Social sharing capabilities.
-* More sophisticated animations and UI elements.
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/yourusername/bookpedia/issues).
@@ -74,10 +66,6 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 This project is licensed under the MIT License.
 
-## 🎬 Course Video
-
-Course by 
-[Philipp Lackner](https://www.youtube.com/watch?v=WT9-4DXUqsM&t=40s)
 ---
 
 Enjoy exploring BookHunt and mastering Kotlin Multiplatform! 🚀📖✨
